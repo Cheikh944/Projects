@@ -1,0 +1,118 @@
+.card-grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 250px 150px 100px 100px 100px;
+    grid-template-rows: 200px;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px;
+    width: fit-content;
+}
+.cardImg{
+    grid-column: 1;
+    width: 150px;
+    border-radius: 10px;
+}
+.card-grid .name{
+    grid-column: 2;
+    margin: auto 0;
+}
+.CartPrice{
+    grid-column: 3;
+    margin: auto 0;
+}
+.quantity{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    grid-column: 4;
+    margin: auto 0;
+}
+.fa-solid{
+    cursor: pointer;
+}
+.card-grid button{
+    position: absolute;
+    bottom: 20px;
+    border: none;
+    background-color: transparent;
+    color: #E21D1D;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card-grid button:hover{
+    background-color: #E21D1D;
+    color: white;
+}
+.subTotal{
+    margin: auto 0;
+    grid-column: 5;
+}
+.card-grid .fa-solid{
+    background-color: #1B4B66;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 880px) {
+    .card-grid{
+        grid-template-columns: 300px 80px 80px 80px 80px;
+        grid-template-rows: 50px 50px 50px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .card-grid{
+        margin: 10px auto;
+        display: flex;
+        width: 90%;
+        border: none;
+        position: relative;
+        background-color: rgb(243, 240, 240);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .cartBuy{
+        display: none;
+    }
+    .card-grid .name{
+        position: absolute;
+        left: 180px;
+        top: 5px;
+        font-weight: 600;
+    }
+    .card-grid .CartPrice{
+        position: absolute;
+        left: 180px;
+        top: 50px;
+    }
+    .card-grid .quantity{
+        position: absolute;
+        width: 100px;
+        left: 175px;
+        top: 5px;
+        justify-content: space-between;
+    }
+    .card-grid .subTotal{
+        position: absolute;
+        bottom: 0px;
+        right: 10px;
+    }
+    .subTotal p{
+        margin: 6px 0;
+    }
+    .card-grid button{
+        bottom: 30px;
+        left: -10px;
+        width: 80px;
+    }
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+/*
+font-family: 'Rubik', sans-serif;
+*/
+strong{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+.hero-section{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-family: 'Rubik', sans-serif;
+}
+.hero-container{
+    width: 100%;
+    display: flex;
+}
+.hero-text{
+    width: 50%;
+}
+.hero-text h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.hero-text p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.hero-text button{
+    cursor: pointer;
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    border: none;
+    color: white;
+    background-color: #F53838;
+    border-radius: 10px;
+}
+.hero-container img{
+    max-width: 100%;
+    min-height: auto;
+}
+.info{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.info img{
+    margin: 0 10px;
+    width: 55px;
+}
+.info li{
+    display: flex;
+    align-items: center;
+}
+.info p{
+    font-size: 25px;
+    font-weight: 700;
+}
+@media screen and (max-width: 850px) {
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-text{
+        width: 100%;
+    }
+    .hero-text h2{
+        font-size: 20px;
+    }
+    .hero-text p{
+        font-size: 14px;
+    }
+    .hero-text button{
+        width: 150px;
+        height: 60px;
+    }
+    .hero-container img{
+        width: 100%;
+    }
+    .info img{
+        width: 40px;
+        margin: 10 0;
+        justify-content: space-between;
+    }
+}

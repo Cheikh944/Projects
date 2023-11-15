@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.App{
+    background-image: url('./Image/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+.content{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.all{
+    margin-top: 20px;
+    display: flex;
+}
+.trendtop{
+    margin-top: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .App{
+        height: fit-content;
+    }
+    .content{
+        margin: 50px auto;
+        padding: 0;
+    }
+    .all{
+        margin: 0 auto;
+        width: fit-content;
+        display: grid;
+        grid-template-columns: 320px 50vw;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .all{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,64 @@
+.handbags{
+    margin: 50px auto;
+    width: 95%;
+}
+.handbags .bag{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.handbags .bag .card{
+    margin: 0 auto;
+    width: 280px;
+}
+.handbags .bag .card-image{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.filter{
+    margin-top: 50px;
+    display: flex;
+    border-bottom: solid 1px;
+    padding-bottom: 20px;
+}
+.handbags h3{
+    font-size: 18px;
+}
+.filter div{
+    display: flex;
+    flex-direction: column;
+}
+.filter .price{
+    margin-left: 50px;
+}
+.handbags input{
+    margin: 10px 10px 0 0;
+    border-color: #1B4B66;
+}
+label{
+    font-size: 16px;
+}
+.price-watches{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 880px) {
+    .handbags .bag .card-image{
+        width: 150px;
+        height: 150px;
+    }
+    .handbags .bag .card{
+        width: 150px;
+    }
+    .handbags .bag{
+        margin-top: 30px;
+        width: 100%;
+        justify-content: space-around;
+    }
+}

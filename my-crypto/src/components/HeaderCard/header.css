@@ -1,0 +1,14 @@
+.trendData ul{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trendData img{
+    width: 30px;
+}
+.trendData h1{
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+}

@@ -1,0 +1,12 @@
+.cardfav{
+    width: 96%;
+    background-color: #0000006c;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .cardfav{
+        width: 95%;
+    }
+}

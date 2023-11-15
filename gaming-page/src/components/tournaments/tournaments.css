@@ -1,0 +1,77 @@
+.tournaments{
+    color: white;
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.tournaments h1{
+    font-size: 40px;
+    margin: 0 auto;
+    width: fit-content;
+}
+.tournaments_row{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    margin: 50px auto;
+    width: fit-content;
+    gap: 100px 50px;
+}
+.t_row{
+    background: rgb(7,22,38);
+    background: linear-gradient(83deg, rgba(7,22,38,1) 0%, rgba(7,22,38,0) 100%);
+    border-radius: 10px ;
+}
+.t_row img{
+    width: fit-content;
+}
+.t_row h2{
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    height: fit-content;
+}
+.t_row h3{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.t_row h4{
+    margin: 10px;
+    font-size: 16px;
+}
+.t_row p{
+    margin: 10px;
+    font-size: 16px;
+}
+.t_row ul{
+    margin: 20px 0;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.tournaments button{
+    margin: 50px auto;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .tournaments_row{
+        grid-template-columns: repeat(2, 370px);
+        gap: 100px 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tournaments_row{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .t_row img{
+        width: 350px;
+    }
+    .t_row h4{
+        width: 100%;
+    }
+}

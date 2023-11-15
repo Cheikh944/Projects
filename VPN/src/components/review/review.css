@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+/*
+font-family: 'Rubik', sans-serif;
+*/
+.review{
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.review-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review-text h2{
+    text-align: center;
+    width: 300px;
+    line-height: 50px;
+}
+.review-text p{
+    color: #4F5665;
+    line-height: 30px;
+    margin-top: 20px;
+    width: 550px;
+    font-size: 16px;
+    text-align: center;
+}
+.review-card{
+    margin: 20px 0;
+    border: solid 1px #F53838;
+    border-radius: 10px;
+    width: 380px;
+    height: 210px;
+    padding: 20px;
+    background-color: white;
+}
+.review-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.review-header h2{
+    font-size: 18px;
+}
+.review-header ul p{
+    color: #4F5665;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.review-header img{
+    width: 50px;
+}
+.review-header i{
+    color: #FEA250;
+}
+
+.card-text{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.review-plan{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 850px) {
+    .review-card{
+        margin: 20px auto;
+    }
+    .review{
+        background-color: white;
+        margin: 0;
+    }
+    .review-text p{
+        width: 70%;
+    }
+}

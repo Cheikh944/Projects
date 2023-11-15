@@ -1,0 +1,31 @@
+.trend{
+    position: relative;
+    margin-left: 15px;
+    height: 500px;
+    width: 28%;
+}
+.trendSwiper{
+    height: 100%;
+}
+.fa-arrow-down{
+    position: absolute;
+    left: 50%;
+}
+.trend .swiper-scrollbar{
+    left: 0;
+    top: 0;
+}
+@media screen and (max-width: 1000px) {
+    .trend{
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top: 10px;
+        grid-column: span 2;
+        width: 90%;
+        height: fit-content;
+        border-radius: 10px;
+        padding: 5px;
+    }
+}

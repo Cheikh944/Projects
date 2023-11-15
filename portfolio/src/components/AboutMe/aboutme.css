@@ -1,0 +1,49 @@
+.aboutme{
+    width: 85%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Serif 4', serif;
+    margin-bottom: 50px;
+}
+.aboutme h1{
+    color: #ee541d;
+    margin: 10px 50px;
+}
+.aboutme h2{
+    margin: 10px 50px;
+    font-size: 45px;
+}
+.aboutPhoto{
+    width: 80%;
+    background-image: url('../../Image/profil.jpg');
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: top -20px left 0px;
+}
+.aboutPhoto div{
+    width: 260px;
+    height: 350px;
+    background-color: #ee541d;
+    color: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aboutPhoto p{
+    margin-top: 5px;
+    padding-bottom: 3px;
+    border-bottom: solid 1px ;
+}
+
+@media screen and (max-width : 875px) {
+    .aboutPhoto{
+        background-image: none;
+    }
+}

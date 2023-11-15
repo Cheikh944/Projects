@@ -1,0 +1,89 @@
+.shop{
+    color: white;
+    margin: 100px auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.shop h1{
+    font-size: 40px;
+    margin: 0 auto;
+    width: fit-content;
+}
+.shop_row{
+    margin: 100px auto;
+    width: 80%;
+}
+.s_row{
+    background: rgb(7,22,38);
+    background: linear-gradient(83deg, rgba(7,22,38,1) 0%, rgba(7,22,38,0) 100%);
+    border-radius: 10px ;
+    flex-shrink: 0;
+    width: 370px;
+    margin-bottom: 50px;
+    height: 450px;
+}
+.s_row img{
+    width: 370px;
+}
+.s_row h2{
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    height: fit-content;
+}
+.s_row h3{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.s_row h4{
+    margin: 80px 10px;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.s_row p{
+    margin: 10px;
+    font-size: 16px;
+}
+.s_row ul{
+    margin: 20px 0;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.shop button{
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .shop_row{
+        width: 100%;
+    }
+    .s_row{
+        width: 270px;
+    }
+    .s_row img{
+        width: 270px;
+    }
+    .s_row ul{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .shop_row{
+        width: 90%;
+    }
+    .s_row{
+        width: 250px;
+        margin: 0 5px;
+    }
+    .s_row img{
+        width: 250px;
+    }
+    .s_row ul{
+        flex-direction: column;
+    }
+}

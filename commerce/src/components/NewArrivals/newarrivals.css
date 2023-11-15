@@ -1,0 +1,34 @@
+.new-arrivals{
+    margin-top: 40px;
+    width: 98%;
+}
+.view-all-arrivals{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.view-all-arrivals h1{
+    font-size: 34px;
+}
+.view-all-arrivals a{
+    color: #1B4B66;
+}
+.view-all-arrivals a i{
+    color: black;
+    margin-left: 10px;
+}
+
+.arrivals-card{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 880px) {
+    .arrivals-card{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: space-between;
+    }
+}

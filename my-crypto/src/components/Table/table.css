@@ -1,0 +1,58 @@
+.load{
+    margin-left: 20px;
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #0000006c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.load img{
+margin-top: 50px;
+    width: 200px;
+}
+.table{
+    margin-left: 20px;
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #0000006c;
+}
+.table-info{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.table .line{
+    margin-top: 50px;
+}
+.table-info img{
+    width: 30px;
+}
+.table-Trend{
+    display: flex;
+    align-items: center;
+}
+.table-Trend i{
+    margin-left: 10px;
+}
+.fa-coins, .fa-chart-simple{
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .table, .load{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .table, .load{
+        margin: 0 auto;
+        width: 95%;
+        height: fit-content;
+    }
+}

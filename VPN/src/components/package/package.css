@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+/*
+font-family: 'Rubik', sans-serif;
+*/
+.packages{
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 90%;
+}
+.package-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.package-text p{
+    color: #4F5665;
+    line-height: 30px;
+    margin-top: 20px;
+    width: 550px;
+    font-size: 16px;
+    text-align: center;
+}
+.package-plan{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.plan{
+    position: relative;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    border: solid 1px #DDDDDD;
+    border-radius: 10px;
+}
+.plan strong{
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 25px;
+}
+.plan img{
+    margin-top: 100px;
+}
+.plan h3{
+    margin-top: 50px;
+    font-size: 18px;
+}
+.plan h1{
+    position: absolute;
+    bottom: 100px;
+}
+.plan button{
+    position: absolute;
+    bottom: 40px;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 180px;
+    height: 45px;
+    color: #F53838;
+    border: solid 2px #F53838;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.plan-nav{
+    margin: 20px 0;
+}
+.plan-nav li{
+    color: #4F5665;
+    font-size: 14px;
+    margin: 20px 0;
+}
+.selected{
+    transition: 0.5s;
+    border: solid 3px #F53838;
+}
+.selected button{
+    color: white;
+    background-color: #F53838;
+}
+@media screen and (max-width: 850px) {
+    .package-text p{
+        width: 70%;
+    }
+    .package-plan{
+        flex-direction: column;
+    }
+    .plan{
+        margin: 10px auto;
+    }
+}
